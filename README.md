@@ -7,6 +7,7 @@ It can,
 - add, edit localization strings, languages etc. easily.
 - Support replication to any number of couchdb nodes so that every one can test localizations in locally in their own machines before committing to central server.
 
+check _attachments directory for the actual code for the app.
 
 ## License
 
