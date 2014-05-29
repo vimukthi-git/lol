@@ -1,32 +1,12 @@
-## Generated CouchApp
+This is a couchapp to manage localizations for your apps. 
 
-This is meant to be an example CouchApp and to ship with most of the CouchApp goodies.
+It can,
 
-Clone with git:
+- Keep localizations for your applications in one place, so that everyone in your team(dev, QA, BA) can contribute in localizing your application.
+- Because of couchdb it has a flexible schema that can be adapted to manage any number of languages.
+- add, edit localization strings, languages etc. easily.
+- Support replication to any number of couchdb nodes so that every one can test localizations in locally in their own machines before committing to central server.
 
-    git clone git://github.com/couchapp/example.git
-    cd example
-
-Install with 
-    
-    couchapp push . http://localhost:5984/example
-
-or (if you have security turned on)
-
-    couchapp push . http://adminname:adminpass@localhost:5984/example
-  
-You can also create this app by running
-
-    couchapp generate example && cd example
-    couchapp push . http://localhost:5984/example
-
-Deprecated: *couchapp generate proto && cd proto*
-
-
-## Todo
-
-* factor CouchApp Commonjs to jquery.couch.require.js
-* use $.couch.app in app.js
 
 ## License
 
