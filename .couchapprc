@@ -1,0 +1,10 @@
+{
+    "env" : {
+        "localeapp" : {
+            "db" : "http://test:test@localhost:5984/localeapp"
+        }
+    }
+}
+
+
+
