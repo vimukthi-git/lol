@@ -4,7 +4,7 @@ var c = new(cradle.Connection)('http://localhost', 5984, {
       cache: true,
       raw: false,
       forceSave: true,
-  auth: { username: 'test', password: 'test' }
+  auth: { username: '****', password: '****' }
   });
 var db = c.database('testvb');
 
@@ -29,7 +29,7 @@ var files   = [];
 var docs = {};
 
 // Walker options
-var walker  = walk.walk('/home/vimukthib/projects/cinco/dev/cinco/web_pos_6.8.0.0/web/app', { followLinks: false });
+var walker  = walk.walk('******************', { followLinks: false });
 
 walker.on('file', function(root, stat, next) {
   // Add this file to the list of files
@@ -44,7 +44,7 @@ walker.on('file', function(root, stat, next) {
     if(!docs.hasOwnProperty(module)) {
       docs[module] = {
         "Type": "locale",
-	"documentType" : "com.leapset.beans.tiny.MemberHistory",
+	"documentType" : "****",
         "Strings": {
         },
         "Name": module,
