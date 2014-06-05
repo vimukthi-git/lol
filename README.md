@@ -9,6 +9,8 @@ It can,
 
 check _attachments directory for the actual code for the app.
 
+merge test  2
+
 ## License
 
 Apache 2.0
